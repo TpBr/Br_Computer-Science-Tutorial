@@ -1,4 +1,4 @@
-# Br_Computer_Science_Tutorial
+# Br_Computer-Science-Tutorial
 A tutorial of basic Computer Science concepts from a recent graduate.
 
 I believe Computer Science is strangely open-minded, iterative, and about language.
