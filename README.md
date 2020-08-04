@@ -1,5 +1,5 @@
 # Computer_Science_Tutorial
-A tutorial of Computer Science concepts from a recent graduate.
+A tutorial of basic Computer Science concepts from a recent graduate.
 
 I believe Computer Science is strangely open-minded, iterative, and about language.
 
