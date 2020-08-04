@@ -1,0 +1,23 @@
+module hello.
+
+data Nat: ★ =
+   |zero: Nat
+   |s: Nat ➔ Nat.
+
+add : Nat ➔ Nat ➔ Nat
+  = λ m. λ n. μ rec . m { zero ➔ n | s m ➔ s (rec m)}.
+
+h = zero.
+e = s zero.
+l = s (s zero).
+L = s (s (s zero)).
+o = s (s (s (s zero))).
+
+w = s (s (s (s (s zero)))).
+O = s ( s (s (s (s (s zero))))).
+r = s (s ( s (s (s (s (s zero)))))).
+ll = s ( s (s ( s (s (s (s (s zero))))))).
+d = s ( s ( s (s ( s (s (s (s (s zero)))))))).
+exlamation_mark  = s (s ( s ( s (s ( s (s (s (s (s zero))))))))).
+
+hello_world! = add exlamation_mark ( add d (add ll (add r (add O (add w (add o (add L (add l (add h e))))))))).
