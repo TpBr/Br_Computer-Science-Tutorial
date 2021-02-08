@@ -1,0 +1,53 @@
+module Iamhowareyou.ced.
+
+import nat.
+
+import list.
+
+data Char: ★ =
+
+  | a' : Char
+  | b' : Char
+  | c' : Char
+  | d' : Char
+  | e' : Char
+  | f' : Char
+  | g' : Char
+  | h' : Char
+  | i' : Char
+  | j' : Char
+  | k' : Char
+  | l' : Char
+  | m' : Char
+  | n' : Char
+  | o' : Char
+  | p' : Char
+  | q' : Char
+  | r' : Char
+  | s' : Char
+  | t' : Char
+  | u' : Char
+  | v' : Char
+  | w' : Char
+  | x' : Char
+  | y' : Char
+  | z' : Char
+  | empty : Char.
+
+
+data String (Char: ★) : ★ =
+   | root : Char ➔ String
+   | con : Char ➔ String ➔ String.
+
+
+a = nil.
+
+b ◂ String ·Char = con a' ( root empty ).
+
+c ◂ String ·Char = con h' ( con e' ( con l' ( con l' (con o' ( con w' ( con o' (con r' (con l' ( con d' ( root empty ) ) ) ) ) ) ) ) ) ).
+
+d ◂ String ·Char = con i' ( con a' ( con m' ( con a' ( con c' (con e' (con d' (con i' (con l' (con l' (con e' (con p' (con r' (con o' (con g' (con r' (con a' (con m' (root empty)))))))))))))))))).
+
+e ◂ String ·Char = con h' (con o' (con w' (con a' (con r' (con e' (con y' (con o' (con u' ( root empty ) ) ) ) ) ) ) ) ).
+
+
